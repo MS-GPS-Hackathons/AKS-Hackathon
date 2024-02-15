@@ -1,6 +1,6 @@
 # Challenge 5 - Resiliency
 
-[< Previous Challenge](./Challenge-04.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-06.md)
+[< Previous Challenge](./Challenge-04-ingress.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-06-scaling.md)
 
 ## Introduction
 
@@ -10,6 +10,7 @@ Resiliency is the ability to recover quickly from issues.  For Cloud Native appl
 
 For this challenge, we will use <https://github.com/stefanprodan/podinfo> since it has a number of Web API's for interacting with the container.  
 
+- Install Podinfo in your cluster (use Helm)
 - Ensure you have multiple replicas of podinfo running
 - Update the Liveness Probe for your Helm chart to use `/healthz`
 - Update the Readiness Probe for your Helm chart to use `/readyz`
@@ -29,5 +30,6 @@ For this challenge, we will use <https://github.com/stefanprodan/podinfo> since 
 
 ## Hints
 
+1. [PodInfo web API](https://github.com/stefanprodan/podinfo)
 1. [cURL manual](https://curl.haxx.se/docs/manual.html)
 1. [Kubernetes probes](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes)

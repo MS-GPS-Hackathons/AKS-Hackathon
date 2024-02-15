@@ -1,6 +1,6 @@
 # Challenge 10 - Networking and Ingress
 
-[< Previous Challenge](./Challenge-09.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-11.md)
+[< Previous Challenge](./Challenge-03-updates.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-05-resilliency.md)
 
 ## Introduction
 

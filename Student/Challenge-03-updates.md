@@ -1,6 +1,6 @@
 # Challenge 03 - Updates and Rollbacks
 
-[< Previous Challenge](./Challenge-02.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04.md)
+[< Previous Challenge](./Challenge-02-deploy.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04-ingress.md)
 
 ## Introduction
 

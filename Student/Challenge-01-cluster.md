@@ -1,6 +1,6 @@
 # Challenge 01 - Introduction To Kubernetes
 
-[< Previous Challenge](./Challenge-00.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-02.md)
+[< Previous Challenge](./Challenge-00-prereqs.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-02-deploy.md)
 
 ## Introduction
 
