@@ -8,6 +8,10 @@ Welcome to the coach's guide for this Hackathon. Here you will find links to spe
 
 This hackathon is a mix of the three available “What the Hack” hackathons: [Intro to Kubernetes](https://github.com/microsoft/WhatTheHack/tree/master/001-IntroToKubernetes), [Advanced Kubernetes](https://github.com/microsoft/WhatTheHack/tree/master/023-AdvancedKubernetes) and [AKS Enterprise Grade](https://github.com/microsoft/WhatTheHack/tree/master/039-AKSEnterpriseGrade).
 
+The [Intro to Kubernetes](https://github.com/microsoft/WhatTheHack/tree/master/001-IntroToKubernetes) hackathon includes an optional [lecture presentation](https://github.com/microsoft/WhatTheHack/blob/master/001-IntroToKubernetes/Coach/Lectures.pptx) that you may find useful delivering before starting the hackathon
+
+The [Advanced Kubernetes](https://github.com/microsoft/WhatTheHack/tree/master/023-AdvancedKubernetes) hackathon also includes optional [lecture presentations](https://github.com/microsoft/WhatTheHack/tree/master/023-AdvancedKubernetes/Coach/Lectures) that you may find useful.
+
 The hackathon solutions are references to the original WTH hackathons.
 
 ## Coach's Guides
