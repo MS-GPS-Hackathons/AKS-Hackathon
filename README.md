@@ -28,7 +28,7 @@ The following topics will be covered.
 	 - Prepare your workstation to work with Azure, Docker containers, and AKS
 - Challenge 01: **[Introduction To Kubernetes](Student/Challenge-01-cluster.md)**
 	 - Install the Kubernetes CLI tool, deploy an AKS cluster in Azure, and verify it is running.
-- Challenge 02: **[Your First Deployment](Student/Challenge-02-deploy)**
+- Challenge 02: **[Your First Deployment](Student/Challenge-02-deploy.md)**
 	 - Pods, Services, Deployments: Getting your YAML on! Deploy the "FabMedical" app to your AKS cluster.
 - Challenge 03: **[Updates and Rollbacks](Student/Challenge-03-updates.md)**
 	 - Deploy v2 of FabMedical to AKS via rolling updates, roll it back, then deploy it again using the blue/green deployment methodology.
@@ -48,13 +48,13 @@ The following topics will be covered.
 	 - Harden secret management with the help of Azure Key Vault
 - Challenge 11: **[AKS Security](Student/Challenge-11-security.md)**
 	 - Explore AKS security concepts such as Azure Policy for Kubernetes
-- Challenge 12: **[Helm](Student/Challenge-12-helm.md)**
+- (Optional) Challenge 12: **[Helm](Student/Challenge-12-helm.md)**
 	 - Explore how to use Helm to package your solution and services
-- Challenge 13: **[GitOps](Student/Challenge-13-gitops.md)**
+- (Optional) Challenge 13: **[GitOps](Student/Challenge-13-gitops.md)**
 	 - Explore how to use a Git repository as the source of truth for the desired state of your infrastructure and applications.
-- Challenge 14: **[Service Mesh](Student/Challenge-14-servicemesh.md)**
+- (Optional) Challenge 14: **[Service Mesh](Student/Challenge-14-servicemesh.md)**
 	 - Explore the service mesh capabilities like traffic management, resiliency, policy, security, strong identity, and observability to your workloads.
-- Challenge 15: **[Arc-Enabled Kubernetes and Arc-Enabled Data Services](Student/Challenge-15-arc-enabled-kubernetes.md)**
+- (Optional) Challenge 15: **[Arc-Enabled Kubernetes and Arc-Enabled Data Services](Student/Challenge-15-arc-enabled-kubernetes.md)**
 	 - Leverage Arc for Kubernetes to manage a non-AKS cluster, and Arc for data to deploy a managed database there
 
 ## Prerequisites
