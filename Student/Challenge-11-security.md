@@ -1,6 +1,6 @@
-# Challenge 05 - AKS Security
+# Challenge 11 - AKS Security
 
-[< Previous Challenge](./Challenge-10-secrets.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-11.md)
+[< Previous Challenge](./Challenge-10-secrets.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-12-helm.md)
 
 ## Introduction
 

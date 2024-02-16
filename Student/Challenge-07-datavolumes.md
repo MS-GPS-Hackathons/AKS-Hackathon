@@ -1,4 +1,4 @@
-# Challenge 7 - Data Volumes
+# Challenge 07 - Data Volumes
 
 [< Previous Challenge](./Challenge-06-scaling.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-08-monitoring.md)
 

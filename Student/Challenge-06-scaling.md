@@ -1,6 +1,6 @@
-# Challenge 6 - Scaling
+# Challenge 06 - Scaling
 
-[< Previous Challenge](./Challenge-05-resilliency.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-07-datavolumes.md)
+[< Previous Challenge](./Challenge-05-resiliency.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-07-datavolumes.md)
 
 ## Introduction
 

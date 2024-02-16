@@ -24,30 +24,38 @@ The following topics will be covered.
 
 ## Challenges
 
-- Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00.md)**
+- Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00-prereqs.md)**
 	 - Prepare your workstation to work with Azure, Docker containers, and AKS
-- Challenge 01: **[Got Containers?](Student/Challenge-01.md)**
-	 - Package the "FabMedical" app into a Docker container and run it locally.
-- Challenge 02: **[The Azure Container Registry](Student/Challenge-02.md)**
-	 - Deploy an Azure Container Registry, secure it and publish your container.
-- Challenge 03: **[Introduction To Kubernetes](Student/Challenge-03.md)**
+- Challenge 01: **[Introduction To Kubernetes](Student/Challenge-01-cluster.md)**
 	 - Install the Kubernetes CLI tool, deploy an AKS cluster in Azure, and verify it is running.
-- Challenge 04: **[Your First Deployment](Student/Challenge-04.md)**
+- Challenge 02: **[Your First Deployment](Student/Challenge-02-deploy)**
 	 - Pods, Services, Deployments: Getting your YAML on! Deploy the "FabMedical" app to your AKS cluster.
-- Challenge 05: **[Scaling and High Availability](Student/Challenge-05.md)**
-	 - Flex Kubernetes' muscles by scaling pods, and then nodes. Observe how Kubernetes responds to resource limits.
-- Challenge 06: **[Deploy MongoDB to AKS](Student/Challenge-06.md)**
-	 - Deploy MongoDB to AKS from a public container registry.
-- Challenge 07: **[Updates and Rollbacks](Student/Challenge-07.md)**
+- Challenge 03: **[Updates and Rollbacks](Student/Challenge-03-updates.md)**
 	 - Deploy v2 of FabMedical to AKS via rolling updates, roll it back, then deploy it again using the blue/green deployment methodology.
-- Challenge 08: **[Storage](Student/Challenge-08.md)**
-	 - Delete the MongoDB you created earlier and observe what happens when you don't have persistent storage. Fix it!
-- Challenge 09: **[Helm](Student/Challenge-09.md)**
-	 - Install Helm tools, customize a sample Helm package to deploy FabMedical, publish the Helm package to Azure Container Registry and use the Helm package to redeploy FabMedical to AKS.
-- Challenge 10: **[Networking and Ingress](Student/Challenge-10.md)**
+- Challenge 04: **[Networking and Ingress](Student/Challenge-04-ingress.md)**
 	 - Explore integrating DNS with Kubernetes services and explore different ways of routing traffic to FabMedical by configuring an Ingress Controller.
-- Challenge 11: **[Operations and Monitoring](Student/Challenge-11.md)**
-	 - Explore the logs provided by Kubernetes using the Kubernetes CLI, configure Azure Monitor and build a dashboard that monitors your AKS cluster
+- Challenge 05: **[Resiliency](Student/Challenge-05-resiliency.md)**
+	 - Explore resiliency by defining Readiness and Liveness probes
+- Challenge 06: **[Scaling](Student/Challenge-06-scaling.md)**
+	 - Flex Kubernetes' muscles by scaling pods, and then nodes. Observe how Kubernetes responds to resource limits.
+- Challenge 07: **[Data Volumes](Student/Challenge-07-datavolumes.md)**
+	 - Explore how to use and manage data volumes within your containers with persistent volumes (PV) and persistent volume claims (PVC)
+- Challenge 08: **[Operations and Monitoring](Student/Challenge-08-monitoring.md)**
+	 - Explore the logs provided by Kubernetes using the Kubernetes CLI, configure Azure Monitor or the managed Azure Prometheus/Grafana and build a dashboard that monitors your AKS cluster
+- Challenge 09: **[AKS Network Integration and Private Clusters](Student/Challenge-09-privatecluster.md)**
+	 - Deploy the application in an AKS cluster with strict network requirements
+- Challenge 10: **[Secrets and Configuration Management](Student/Challenge-10-secrets.md)**
+	 - Harden secret management with the help of Azure Key Vault
+- Challenge 11: **[AKS Security](Student/Challenge-11-security.md)**
+	 - Explore AKS security concepts such as Azure Policy for Kubernetes
+- Challenge 12: **[Helm](Student/Challenge-12-helm.md)**
+	 - Explore how to use Helm to package your solution and services
+- Challenge 13: **[GitOps](Student/Challenge-13-gitops.md)**
+	 - Explore how to use a Git repository as the source of truth for the desired state of your infrastructure and applications.
+- Challenge 14: **[Service Mesh](Student/Challenge-14-servicemesh.md)**
+	 - Explore the service mesh capabilities like traffic management, resiliency, policy, security, strong identity, and observability to your workloads.
+- Challenge 15: **[Arc-Enabled Kubernetes and Arc-Enabled Data Services](Student/Challenge-15-arc-enabled-kubernetes.md)**
+	 - Leverage Arc for Kubernetes to manage a non-AKS cluster, and Arc for data to deploy a managed database there
 
 ## Prerequisites
 
