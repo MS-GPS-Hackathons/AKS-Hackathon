@@ -41,7 +41,7 @@ The architecture for the sample pod is:
 * 1 service of type LoadBalancer
   * This provides an external endpoint for busybox-reader so the user can see the latest timestamp
 
-![AKS Volumes](img/aks-volumes.png)
+![AKS Volumes](Resources/img/aks-volumes.png)
 
 ## Sub-Challenge 1: Static provisioning with Azure Disks
 
