@@ -18,7 +18,7 @@ In this challenge we'll be setting up all the tools we will need to complete our
     - Windows Subsystem for Linux
     - Azure CLI 
         - Update to the latest
-        - Must be at least version 2.7.x
+        - Must be at least version 2.5.x
         - **NOTE for Windows users:** Install Azure CLI on Windows Subsystem for Linux following the instructions for the Linux distribution you are using in WSL.
         - **NOTE:** If you’re running into issues running Azure CLI command on Windows, disable Global Protect (VPN)
     - Visual Studio Code
