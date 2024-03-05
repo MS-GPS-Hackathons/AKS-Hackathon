@@ -65,7 +65,7 @@ The following topics will be covered.
 - [**Azure CLI**](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
    - (Windows-only) Install Azure CLI on Windows Subsystem for Linux
    - Update to the latest
-   - Must be at least version 2.7.x
+   - Must be at least version 2.5.x
 - Alternatively, you can use the [**Azure Cloud Shell**](https://shell.azure.com/)
 - [**Visual Studio Code**](https://code.visualstudio.com/)
 
