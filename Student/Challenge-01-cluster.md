@@ -20,6 +20,7 @@ In this challenge we will be provisioning our first Kubernetes cluster using the
 	- The cluster should use Local accounts with Kubernetes RBAC for Authentication and Authorization
 	- The cluster should use system and user pools
 	- Enable the cluster autoscaler.
+	- Enable Network Policy
 	- There is no requirement for private cluster access
     - **NOTE:** You will need to specify on the command line if you want ssh keys generated or no ssh keys used. Either option will work, but you should read the documentation and be familiar with the difference.
 
