@@ -10,12 +10,13 @@ Resiliency is the ability to recover quickly from issues.  For Cloud Native appl
 
 For this challenge, we will use <https://github.com/stefanprodan/podinfo> since it has a number of Web API's for interacting with the container.  
 
-- Install Podinfo in your cluster (use Helm)
+- Install Podinfo in your cluster
+- **NOTE:** Sample YAML files to get you started can be found in the `/Challenge-05/` folder of the `Resources.zip` file provided by your coach.
 - Ensure you have multiple replicas of podinfo running
-- Update the Liveness Probe for your Helm chart to use `/healthz`
-- Update the Readiness Probe for your Helm chart to use `/readyz`
+- Update the Liveness Probe of your deployment to use `/healthz`
+- Update the Readiness Probe of your deployment to use `/readyz`
 - Force the Readiness Probe to fail for a specific instance
-    - HINT: look through some of the APIs in the [repo README](https://github.com/stefanprodan/podinfo)
+    - HINT: look through some of the APIs in the [repo README](https://github.com/stefanprodan/podinfo) and execute ([exec](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_exec/)) in a specific pod that you want to fail.
 
 ## Success Criteria
 
@@ -31,5 +32,6 @@ For this challenge, we will use <https://github.com/stefanprodan/podinfo> since 
 ## Hints
 
 1. [PodInfo web API](https://github.com/stefanprodan/podinfo)
+1. [Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
 1. [cURL manual](https://curl.haxx.se/docs/manual.html)
 1. [Kubernetes probes](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes)
