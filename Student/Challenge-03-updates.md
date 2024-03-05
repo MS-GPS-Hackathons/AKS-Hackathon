@@ -34,4 +34,4 @@ In this challenge you'll be deploying a v2 of the FabMedical application to your
 1. Verify that you are running v2 content-web of the application.
 1. Verify that you have upgraded content-web as a rolling update.
 1. Verify that you have rolled back content-web.
-1. Verify that you have upgraded content-web and content-api with different tags as a blue/green deployment.
+1. Verify that you have upgraded content-web with different tags as a blue/green deployment.
