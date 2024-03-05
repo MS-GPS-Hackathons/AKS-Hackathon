@@ -15,7 +15,6 @@ In the previous challenges, we accessed our service via an IP address.  Humans p
 
 1. Your first task is to add a dns label to your __content-web__ service. 
 2. Your service should now be available at the url `http://[myserviceuniquelabel].[location].cloudapp.azure.com`.
-   *For deployment to Azure Government, the url will be similar to `http://[myserviceuniquelabel].[location].cloudapp.usgovcloudapi.net`*
 3. Verify that the DNS record has been created (nslookup or dig), and then test this url in your browser.
 4. Discuss with your coach how you might link a 'real' DNS name (eg, `conferenceinfo.fabmedical.com`) with this "azure-specific" DNS name (eg, `conferenceinfo.eastus.cloudapp.azure.com`)
 
@@ -25,7 +24,7 @@ Switching gears, we will now start working with ingress controllers, which allow
 1. Delete the existing content-web service.
 2. Create an nginx ingress controller. (Hint: use helm)
 3. Deploy the content-web service and create an Ingress resource for it. 
-   - The reference template (which will need editing!) can be found in the `Challenge-10` folder of the `Resources.zip` package: `template-web-ingress-deploy.yaml`
+   - The reference template (which will need editing!) can be found in the `Challenge-04` folder of the `Resources.zip` package: `template-web-ingress-deploy.yaml`
 4. Show your coach that you can access the ingress in your browser via IP address
 
 ## Part 2b: Ingress Controller + DNS for Public IPs
@@ -47,6 +46,8 @@ Just like in part 1, you will now add a metadata annotation to the ingress contr
 ## Learning Resources
 
 _Make sure you review these! (Hint Hint)_
+* [Install Helm](https://helm.sh/docs/intro/install/)
+* [What is Helm?](https://helm.sh/)
 * [Apply a DNS label to a service](https://docs.microsoft.com/en-us/azure/aks/static-ip#apply-a-dns-label-to-the-service)
 * [Create a basic ingress controller](https://docs.microsoft.com/en-us/azure/aks/ingress-basic)
 * [Ingress controller DNS labels](https://docs.microsoft.com/en-us/azure/aks/ingress-static-ip)
