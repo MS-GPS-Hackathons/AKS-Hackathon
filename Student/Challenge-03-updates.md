@@ -25,8 +25,9 @@ In this challenge you'll be deploying a v2 of the FabMedical application to your
 	- Confirm that we are back to the original version of the app by checking that the conference dates are back to 2017.
 ### Blue-Green Deployment
 - Perform the update again, this time using the blue/green deployment methodology.
-	- You will need a separate deployment file using different tags for content-web and content-api.
-	- Cut over is done by modifying the app’s service to point to this new deployment.
+	- You will need a separate deployment file using different tags for content-web.
+	- You can use the already deployed version of content-api, there is no need to deploy another version
+	- Cut over is done by modifying the app’s service to point to the new content-web deployment.
 
 ## Success Criteria
 
