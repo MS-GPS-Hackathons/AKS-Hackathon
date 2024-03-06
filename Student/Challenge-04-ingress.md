@@ -36,7 +36,7 @@ Just like in part 1, you will now add a metadata annotation to the ingress contr
    - Don't forget to add the host name to your ingress YAML template.
 2. Verify that the DNS record has been created (nslookup or dig), and then access the application using the DNS name, e.g: 
     - `http://[new-dns-label].[REGION].cloudapp.azure.com`
-      *For deployment to Azure Government, the url will be similar to `http://[new-dns-label].[REGION].cloudapp.usgovcloudapi.net`*
+
 
 ## Success Criteria
 
