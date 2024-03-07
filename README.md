@@ -30,18 +30,18 @@ The following topics will be covered.
 	 - Install the Kubernetes CLI tool, deploy an AKS cluster in Azure, and verify it is running.
 - Challenge 02: **[Your First Deployment](Student/Challenge-02-deploy.md)**
 	 - Pods, Services, Deployments: Getting your YAML on! Deploy the "FabMedical" app to your AKS cluster.
-- Challenge 03: **[Updates and Rollbacks](Student/Challenge-03-updates.md)**
-	 - Deploy v2 of FabMedical to AKS via rolling updates, roll it back, then deploy it again using the blue/green deployment methodology.
-- Challenge 04: **[Networking and Ingress](Student/Challenge-04-ingress.md)**
-	 - Explore integrating DNS with Kubernetes services and explore different ways of routing traffic to FabMedical by configuring an Ingress Controller.
-- Challenge 05: **[Resiliency](Student/Challenge-05-resiliency.md)**
-	 - Explore resiliency by defining Readiness and Liveness probes
-- Challenge 06: **[Scaling](Student/Challenge-06-scaling.md)**
-	 - Flex Kubernetes' muscles by scaling pods, and then nodes. Observe how Kubernetes responds to resource limits.
-- Challenge 07: **[Data Volumes](Student/Challenge-07-datavolumes.md)**
-	 - Explore how to use and manage data volumes within your containers with persistent volumes (PV) and persistent volume claims (PVC)
-- Challenge 08: **[Operations and Monitoring](Student/Challenge-08-monitoring.md)**
+- Challenge 03: **[Operations and Monitoring](Student/Challenge-03-monitoring.md)**
 	 - Explore the logs provided by Kubernetes using the Kubernetes CLI, configure Azure Monitor or the managed Azure Prometheus/Grafana and build a dashboard that monitors your AKS cluster
+- Challenge 04: **[Updates and Rollbacks](Student/Challenge-04-updates.md)**
+	 - Deploy v2 of FabMedical to AKS via rolling updates, roll it back, then deploy it again using the blue/green deployment methodology.
+- Challenge 05: **[Networking and Ingress](Student/Challenge-05-ingress.md)**
+	 - Explore integrating DNS with Kubernetes services and explore different ways of routing traffic to FabMedical by configuring an Ingress Controller.
+- Challenge 06: **[Resiliency](Student/Challenge-06-resiliency.md)**
+	 - Explore resiliency by defining Readiness and Liveness probes
+- Challenge 07: **[Scaling](Student/Challenge-07-scaling.md)**
+	 - Flex Kubernetes' muscles by scaling pods, and then nodes. Observe how Kubernetes responds to resource limits.
+- Challenge 08: **[Data Volumes](Student/Challenge-08-datavolumes.md)**
+	 - Explore how to use and manage data volumes within your containers with persistent volumes (PV) and persistent volume claims (PVC)
 - Challenge 09: **[AKS Network Integration and Private Clusters](Student/Challenge-09-privatecluster.md)**
 	 - Deploy the application in an AKS cluster with strict network requirements
 - Challenge 10: **[Secrets and Configuration Management](Student/Challenge-10-secrets.md)**

@@ -1,6 +1,6 @@
 # Challenge 08 - AKS Monitoring
 
-[< Previous Challenge](./Challenge-07-datavolumes.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-09-privatecluster.md)
+[< Previous Challenge](./Challenge-02-deploy.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04-updates.md)
 
 ## Introduction
 

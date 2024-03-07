@@ -1,6 +1,6 @@
 # Challenge 02 - Your First Deployment
 
-[< Previous Challenge](./Challenge-01-cluster.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-03-updates.md)
+[< Previous Challenge](./Challenge-01-cluster.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-03-monitoring.md)
 
 ## Introduction
 

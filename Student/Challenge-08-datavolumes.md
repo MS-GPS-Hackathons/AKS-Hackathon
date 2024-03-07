@@ -1,6 +1,6 @@
 # Challenge 07 - Data Volumes
 
-[< Previous Challenge](./Challenge-06-scaling.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-08-monitoring.md)
+[< Previous Challenge](./Challenge-07-scaling.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-09-privatecluster.md)
 
 ## Introduction
 
@@ -99,7 +99,7 @@ In this sub-challenge, we will learn how to scale an application where each inst
 
 ### Description
 
-- Deploy [disk-statefulset.yaml](Resources/Challenge-07/disk-statefulset.yaml) and verify the application has deployed successfully.
+- Deploy [disk-statefulset.yaml](Resources/Challenge-08/disk-statefulset.yaml) and verify the application has deployed successfully.
 - Examine the PVC and PV created.
 - Validate that the pod is writing new logs every second
   - **HINT**: Use the kubectl exec command to see the contents of the '/mnt/index.html' file.

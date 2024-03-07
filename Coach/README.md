@@ -22,19 +22,19 @@ The hackathon solutions are references to the original WTH hackathons.
 	 - [WTH Intro To Kubernetes solution](https://github.com/microsoft/WhatTheHack/blob/master/001-IntroToKubernetes/Coach/Solution-03.md)
 - Challenge 02: **Your First Deployment**
 	- [WTH Intro To Kubernetes solution](https://github.com/microsoft/WhatTheHack/blob/master/001-IntroToKubernetes/Coach/Solution-04.md)
-- Challenge 03: **Updates and Rollbacks**
-	 - [WTH Intro To Kubernetes solution](https://github.com/microsoft/WhatTheHack/blob/master/001-IntroToKubernetes/Coach/Solution-07.md)
-- Challenge 04: **Networking and Ingress**
-	 - [WTH Intro To Kubernetes solution](https://github.com/microsoft/WhatTheHack/blob/master/001-IntroToKubernetes/Coach/Solution-10.md)
-- Challenge 05: **Resiliency**
-	 - [WTH Advanced Kubernetes Solution](https://github.com/microsoft/WhatTheHack/blob/master/023-AdvancedKubernetes/Coach/03-resiliency.md)
-- Challenge 06: **Scaling**
-	 - [WTH Advanced Kubernetes Solution](https://github.com/microsoft/WhatTheHack/blob/master/023-AdvancedKubernetes/Coach/04-scaling.md)
-- Challenge 07: **Data Volumes**
-	 - [WTH Advanced Kubernetes Solution](https://github.com/microsoft/WhatTheHack/blob/master/023-AdvancedKubernetes/Coach/07-data-volumes.md)
-- Challenge 08: **Operations and Monitoring**
+- Challenge 03: **Operations and Monitoring**
 	 - [WTH Intro To Kubernetes solution](https://github.com/microsoft/WhatTheHack/blob/master/001-IntroToKubernetes/Coach/Solution-11.md)
 	 - [AKS Enterprise Grade solution](https://github.com/microsoft/WhatTheHack/blob/master/039-AKSEnterpriseGrade/Coach/Solution-03.md)
+- Challenge 04: **Updates and Rollbacks**
+	 - [WTH Intro To Kubernetes solution](https://github.com/microsoft/WhatTheHack/blob/master/001-IntroToKubernetes/Coach/Solution-07.md)
+- Challenge 05: **Networking and Ingress**
+	 - [WTH Intro To Kubernetes solution](https://github.com/microsoft/WhatTheHack/blob/master/001-IntroToKubernetes/Coach/Solution-10.md)
+- Challenge 06: **Resiliency**
+	 - [WTH Advanced Kubernetes Solution](https://github.com/microsoft/WhatTheHack/blob/master/023-AdvancedKubernetes/Coach/03-resiliency.md)
+- Challenge 07: **Scaling**
+	 - [WTH Advanced Kubernetes Solution](https://github.com/microsoft/WhatTheHack/blob/master/023-AdvancedKubernetes/Coach/04-scaling.md)
+- Challenge 08: **Data Volumes**
+	 - [WTH Advanced Kubernetes Solution](https://github.com/microsoft/WhatTheHack/blob/master/023-AdvancedKubernetes/Coach/07-data-volumes.md)
 - Challenge 09: **AKS Network Integration and Private Clusters**
 	 - [AKS Enterprise Grade solution](https://github.com/microsoft/WhatTheHack/blob/master/039-AKSEnterpriseGrade/Coach/Solution-02.md)
 - Challenge 10: **Secrets and Configuration Management**

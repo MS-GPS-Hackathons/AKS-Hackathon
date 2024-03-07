@@ -1,6 +1,6 @@
 # Challenge 09 - AKS Network Integration and Private Clusters
 
-[< Previous Challenge](./Challenge-08-monitoring.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-10-secrets.md)
+[< Previous Challenge](./Challenge-08-datavolumes.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-10-secrets.md)
 
 ## Introduction
 
