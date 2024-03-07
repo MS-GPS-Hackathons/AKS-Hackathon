@@ -19,10 +19,10 @@ In this challenge you will learn how to view application logs and trouble-shoot 
 	- Figure out how to get details on a running pod to see reasons for failures.
 - Implement Prometheus/Grafana **or** Azure Container Insights to be able to monitor cluster metrics
 - You can access container logs via Azure Monitor
-- Increase the CPU utilization of the API container with the `pi` API endpoint, and see the corresponding metric increase in Prometheus and/or Azure Monitor
 
 ## Success Criteria
 
+- Demonstrate and explain to your coach the usage of the kubectl commands: exec, describe, logs and explain
 - use kubectl to view logs for the containers running in your cluster.
 - Demonstrate that you can login to a running container and issue bash commands.
 - You can display cluster metrics graphically with Grafana or Container Insights
@@ -33,5 +33,3 @@ In this challenge you will learn how to view application logs and trouble-shoot 
 These docs might help you achieving these objectives:
 
 - [Azure Monitor for Containers](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview)
-- [Prometheus](https://prometheus.io/)
-- [HPA](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
