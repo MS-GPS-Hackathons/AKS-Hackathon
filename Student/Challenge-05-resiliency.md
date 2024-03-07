@@ -13,8 +13,8 @@ For this challenge, we will use <https://github.com/stefanprodan/podinfo> applic
 - Provision the Podinfo application in your cluster
 - **NOTE:** Sample YAML files to get you started can be found in the `/Challenge-05/` folder of the `Resources.zip` package provided by your coach.
 - Ensure you have multiple replicas of podinfo running
-- Update the Liveness Probe of your deployment to use `/healthz`
-- Update the Readiness Probe of your deployment to use `/readyz`
+- Update the Liveness Probe of your deployment to use `/healthz` endpoint
+- Update the Readiness Probe of your deployment to use `/readyz` endpoint
 - Force the Readiness Probe to fail for a specific instance
     - HINT: look through some of the APIs in the [repo README](https://github.com/stefanprodan/podinfo) and execute ([exec](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_exec/)) in a specific pod that you want to fail.
 
