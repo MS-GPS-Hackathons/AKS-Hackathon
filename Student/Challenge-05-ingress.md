@@ -1,4 +1,4 @@
-# Challenge 04 - Networking and Ingress
+# Challenge 05 - Networking and Ingress
 
 [< Previous Challenge](./Challenge-04-updates.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-06-resiliency.md)
 

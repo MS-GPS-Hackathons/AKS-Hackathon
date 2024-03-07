@@ -1,4 +1,4 @@
-# Challenge 07 - Data Volumes
+# Challenge 08 - Data Volumes
 
 [< Previous Challenge](./Challenge-07-scaling.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-09-privatecluster.md)
 

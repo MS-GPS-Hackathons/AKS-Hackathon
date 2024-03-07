@@ -1,4 +1,4 @@
-# Challenge 08 - AKS Monitoring
+# Challenge 03 - AKS Monitoring
 
 [< Previous Challenge](./Challenge-02-deploy.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04-updates.md)
 

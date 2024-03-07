@@ -1,4 +1,4 @@
-# Challenge 05 - Resiliency
+# Challenge 06 - Resiliency
 
 [< Previous Challenge](./Challenge-05-ingress.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-07-scaling.md)
 
