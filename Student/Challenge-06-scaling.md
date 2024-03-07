@@ -10,7 +10,7 @@ When scaling in Kubernetes, there are some considerations:
 * [Cluster Scaling](https://docs.microsoft.com/en-us/azure/aks/cluster-autoscaler) - Scales the number of nodes (VM's)
   * Scale up - When there are unscheduled pods due to unavailable resources in the existing nodes
   * Scale down - When there are a surplus of node resources for the scheduled number of pods
-  * The cluster and horizontal pod autoscalers can work together, and are often both configure in a cluster. When combined, the horizontal pod autoscaler is focused on running the number of pods required to meet application demand. The cluster autoscaler is focused on running the number of nodes required to support the scheduled pods.
+  * The cluster and horizontal pod autoscalers can work together, and are often both configured in a cluster. When combined, the horizontal pod autoscaler is focused on running the number of pods required to meet application demand. The cluster autoscaler is focused on running the number of nodes required to support the scheduled pods.
 * [Requests and Limits](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) - Specify the resources needed for a pod
     * Requests - Used to determine which node to place pod on
     * Limit - Enforced limit for resources pod can use
