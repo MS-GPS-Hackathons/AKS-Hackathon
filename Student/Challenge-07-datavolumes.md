@@ -54,7 +54,7 @@ In this sub-challenge, we will provision an Azure Disk and attach it to your pod
 - Modify [disk-deployment.yaml](Resources/Challenge-07/disk-deployment.yaml) to use the disk.
 - Deploy the yaml file and verify the application has deployed successfully.
 - Validate that the pod is writing new logs every second
-  - **HINT**: In separate window, run: `watch -n 1 'curl -s <PUBLIC IP> | tail | head -20'`
+  - **HINT**: Use the kubectl exec command to see the contents of the '/mnt/index.html' file.
 - Delete the pod. Another pod should automatically be started. Verify that the contents of the /mnt/index.html file have persisted.
 
 ### Success Criteria
@@ -79,7 +79,7 @@ Most of the time, we have no interest in manually configuring storage for our ap
 - Deploy the yaml file and verify the application has deployed successfully.
 - Verify that the persistent volume has been provisioned.
 - Validate that the pod is writing new logs every second
-  - **HINT**: In separate window, run: `watch -n 1 'curl -s <PUBLIC IP> | tail | head -20'`
+  - **HINT**: Use the kubectl exec command to see the contents of the '/mnt/index.html' file.
 - Delete the pod. Another pod should automatically be started. Verify that the contents of the /mnt/index.html file have persisted.
 
 ### Success Criteria
@@ -102,7 +102,7 @@ In this sub-challenge, we will learn how to scale an application where each inst
 - Deploy [disk-statefulset.yaml](Resources/Challenge-07/disk-statefulset.yaml) and verify the application has deployed successfully.
 - Examine the PVC and PV created.
 - Validate that the pod is writing new logs every second
-  - **HINT**: In separate window, run: `watch -n 1 'curl -s <PUBLIC IP> | tail | head -20'`
+  - **HINT**: Use the kubectl exec command to see the contents of the '/mnt/index.html' file.
 - Delete the pod. Another pod should automatically be started. Verify that the contents of the /mnt/index.html file have persisted.
 - Scale up the StatefulSet. Check what happens to the /mnt/index.html file stream.
 - Delete one of the pods. Check what happens to the stream.
@@ -129,10 +129,9 @@ In the last sub-challenge, the application required separate storage per pod. In
   - **HINT**: The basic units of scaling differ between the two constructs. Which is appropriate here?
 - Use an appropriate yaml file from one of the previous sub-challenges. Modify it to use dynamically provisioned Azure Files for storage. Set to two replicas.
   - **HINT**: there are two settings that will need to be modified in the PVC
-  - If you have not completed the above sub-challenges, either use [disk-statefulset.yaml](Resources/07-data-volumes/disk-statefulset.yaml) (statefulset) or [dynamic-deployment.yaml](Resources/Challenge-07/dynamic-deployment.yaml) (deployment) as a starting template.
-- Deploy your yaml and verify the application has deployed successfully.
+ - Deploy your yaml and verify the application has deployed successfully.
 - Validate that the pod is writing new logs every second
-  - **HINT**: In separate window, run: `watch -n 1 'curl -s <PUBLIC IP> | tail | head -20'`
+  - **HINT**: Use the kubectl exec command to see the contents of the '/mnt/index.html' file.
 - Delete one of the pods. Verify that the contents of the /mnt/index.html file have persisted.
   - **NOTE**: There should be NO gap in the logs.
 
