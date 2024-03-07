@@ -8,13 +8,13 @@ Resiliency is the ability to recover quickly from issues.  For Cloud Native appl
 
 ## Description
 
-For this challenge, we will use <https://github.com/stefanprodan/podinfo> since it has a number of Web API's for interacting with the container.  
+For this challenge, we will use <https://github.com/stefanprodan/podinfo> application since it exposes a number of Web API's for interacting with the container.  
 
-- Install Podinfo in your cluster
-- **NOTE:** Sample YAML files to get you started can be found in the `/Challenge-06/` folder of the `Resources.zip` file provided by your coach.
+- Provision the Podinfo application in your cluster
+- **NOTE:** Sample YAML files to get you started can be found in the `/Challenge-05/` folder of the `Resources.zip` package provided by your coach.
 - Ensure you have multiple replicas of podinfo running
-- Update the Liveness Probe of your deployment to use `/healthz`
-- Update the Readiness Probe of your deployment to use `/readyz`
+- Update the Liveness Probe of your deployment to use `/healthz` endpoint
+- Update the Readiness Probe of your deployment to use `/readyz` endpoint
 - Force the Readiness Probe to fail for a specific instance
     - HINT: look through some of the APIs in the [repo README](https://github.com/stefanprodan/podinfo) and execute ([exec](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_exec/)) in a specific pod that you want to fail.
 
