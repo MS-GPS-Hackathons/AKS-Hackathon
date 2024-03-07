@@ -51,7 +51,7 @@ In this sub-challenge, we will provision an Azure Disk and attach it to your pod
 
 - Provision an Azure Disk in the `MC_<resource group>_<cluster name>_<region>` resource group.
   - **NOTE**: If you created a cluster with availability zones enabled, make sure to specify a zone when creating a disk. See [here](https://docs.microsoft.com/en-us/azure/aks/availability-zones#azure-disks-limitations).
-- Modify [disk-deployment.yaml](Resources/Challenge-07/disk-deployment.yaml) to use the disk.
+- Modify [disk-deployment.yaml](Resources/Challenge-08/disk-deployment.yaml) to use the disk.
 - Deploy the yaml file and verify the application has deployed successfully.
 - Validate that the pod is writing new logs every second
   - **HINT**: Use the kubectl exec command to see the contents of the '/mnt/index.html' file.
