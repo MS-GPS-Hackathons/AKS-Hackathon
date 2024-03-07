@@ -8,9 +8,9 @@ Resiliency is the ability to recover quickly from issues.  For Cloud Native appl
 
 ## Description
 
-For this challenge, we will use <https://github.com/stefanprodan/podinfo> since it has a number of Web API's for interacting with the container.  
+For this challenge, we will use <https://github.com/stefanprodan/podinfo> application since it exposes a number of Web API's for interacting with the container.  
 
-- Install Podinfo in your cluster
+- Provision the Podinfo application in your cluster
 - **NOTE:** Sample YAML files to get you started can be found in the `/Challenge-05/` folder of the `Resources.zip` file provided by your coach.
 - Ensure you have multiple replicas of podinfo running
 - Update the Liveness Probe of your deployment to use `/healthz`
