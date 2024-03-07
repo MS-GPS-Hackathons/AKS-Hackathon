@@ -77,11 +77,11 @@ This hack is designed to be run as a full 4-day event, for a total of approximat
 
 Challenges from 12-15 are labeled as optional, if time permits and attendees area eager to learn more, they can complete these challenges as well, or give them to the attendees as homework.
 
-### Challenges 0-4 and 8: 
+### Challenges 0-5
 
 These challenges are based on [Intro to Kubernetes hackathon](https://github.com/microsoft/WhatTheHack/tree/master/001-IntroToKubernetes)
 
-### Challenges 5-7 and 12-14
+### Challenges 6-8 and 12-14
 
 These challenges are based on [Advanced Kubernetes hackathon](https://github.com/microsoft/WhatTheHack/tree/master/023-AdvancedKubernetes)
 
