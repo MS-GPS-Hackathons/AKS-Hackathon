@@ -23,7 +23,7 @@ In this challenge you will learn how to view application logs and trouble-shoot 
 ## Success Criteria
 
 - Demonstrate and explain to your coach the usage of the kubectl commands: exec, describe, logs and explain
-- use kubectl to view logs for the containers running in your cluster.
+- Use kubectl to view logs for the containers running in your cluster.
 - Demonstrate that you can login to a running container and issue bash commands.
 - You can display cluster metrics graphically with Grafana or Container Insights
 - You can show live container logs with Azure Container Insights
