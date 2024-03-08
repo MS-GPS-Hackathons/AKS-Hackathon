@@ -24,7 +24,7 @@ In this challenge we need to get our application up and running in Kubernetes. W
   - Service: Internal
   - Port and Target Port: 3001
   - CPU: 0.5
-  - Memory: 128MB
+  - Memory: 128Mi (Mebibytes)
 - Make sure you correctly set the CPU & Memory resource requests specified above.
 - We have not exposed the API app to the external world. Therefore, to test it you need to:
 	- Figure out how to get a bash shell on the API app pod just deployed.
