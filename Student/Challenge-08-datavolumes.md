@@ -28,8 +28,8 @@ The Kubernetes concepts for storage are:
 
 We will also look at scaling in this exercise. Kubernetes has several declarative constructs for managing replicas of an application:
 
-- [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/): Usually for stateless applications. The basic unit of scaling is a pod.
-- [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/): Usually for stateful applications. The basic unit of scaling is a pod plus persistent storage for the pod.
+- [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/): Usually used only for stateless applications. The basic unit of scaling is a pod.
+- [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/): Usually used for stateful applications. The basic unit of scaling is a pod + persistent storage for the pod.
 
 ## Architecture
 
