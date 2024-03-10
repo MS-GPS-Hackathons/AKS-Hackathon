@@ -18,7 +18,6 @@ In this challenge you will learn how to view application logs and trouble-shoot 
 - Find out if your pods had any errors.
 	- Figure out how to get details on a running pod to see reasons for failures.
 - Implement Prometheus/Grafana **or** Azure Container Insights to be able to monitor cluster metrics
-- You can access container logs via Azure Monitor
 
 ## Success Criteria
 
