@@ -8,7 +8,7 @@ Running a cluster without knowing what is going on inside of it is a show-stoppe
 
 ## Description
 
-In this challenge you will learn how to view application logs and trouble-shoot errors. View performance metrics and identity bottlenecks.
+In this challenge you will learn how to view application logs and trouble-shoot errors. View performance metrics and identify bottlenecks.
 
 - Find the logs for your application’s containers, using:
 	- `kubectl`
