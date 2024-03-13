@@ -24,12 +24,12 @@ The Kubernetes concepts for storage are:
 
 * [Storage Class](https://kubernetes.io/docs/concepts/storage/storage-classes/) (SC) - Describes the "profile" of the storage solution.  (e.g. Azure Disk with LRS)
 * [Persistent Volume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) (PV) - A storage instance (e.g. A specific Azure Disk resource)
-* [Persistent Volume Claim](https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/) (PVC) - A request for a storage instance (e.g. Request for a 30Gi disk with a Storage Class).  When this request is fulfilled, it will create a Persistent Volume.
+* [Persistent Volume Claim](https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/) (PVC) - A request for a storage instance (e.g. Request for a 30Gi disk of a given Storage Class).  When this request is fulfilled, it will create a Persistent Volume.
 
 We will also look at scaling in this exercise. Kubernetes has several declarative constructs for managing replicas of an application:
 
-- [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/): Usually for stateless applications. The basic unit of scaling is a pod.
-- [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/): Usually for stateful applications. The basic unit of scaling is a pod plus persistent storage for the pod.
+- [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/): Usually used only for stateless applications. The basic unit of scaling is a pod.
+- [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/): Usually used for stateful applications. The basic unit of scaling is a pod + persistent storage for the pod.
 
 ## Architecture
 

@@ -8,7 +8,7 @@ Running a cluster without knowing what is going on inside of it is a show-stoppe
 
 ## Description
 
-In this challenge you will learn how to view application logs and trouble-shoot errors. View performance metrics and identity bottlenecks.
+In this challenge you will learn how to view application logs and trouble-shoot errors. View performance metrics and identify bottlenecks.
 
 - Find the logs for your application’s containers, using:
 	- `kubectl`
@@ -18,15 +18,14 @@ In this challenge you will learn how to view application logs and trouble-shoot 
 - Find out if your pods had any errors.
 	- Figure out how to get details on a running pod to see reasons for failures.
 - Implement Prometheus/Grafana **or** Azure Container Insights to be able to monitor cluster metrics
-- You can access container logs via Azure Monitor
 
 ## Success Criteria
 
 - Demonstrate and explain to your coach the usage of the kubectl commands: exec, describe, logs and explain
 - Use kubectl to view logs for the containers running in your cluster.
 - Demonstrate that you can login to a running container and issue bash commands.
+- You can show live container logs with Kubernetes Dashboard
 - You can display cluster metrics graphically with Grafana or Container Insights
-- You can show live container logs with Azure Container Insights
 
 ## Learning Resources
 
