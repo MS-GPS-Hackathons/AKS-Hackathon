@@ -55,7 +55,6 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 
 - Make sure the AKS cluster does not have **any** public IP address
 - Configure the Azure SQL Database so that it is only reachable over a private IP address
-- Use an open source managed database, such as Azure SQL Database for MySQL or Azure Database for Postgres
 
 ## Learning Resources
 
