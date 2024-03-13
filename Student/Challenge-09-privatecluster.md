@@ -17,7 +17,7 @@ The sample application we will use in this hack has three components, as the fol
 The web & API components are documented at the links below. Use this documentation for hints on how to deploy them and how they work:
 - A [Web](./Resources/Challenge-09/web) component that offers an HTML portal that shows the information.
 - An [API](./Resources/Challenge-09/api) component that accesses a backend database.
-- A **database** which is only used to return a simple query that shows the database version.
+- An Azure SQL Database which is only used to return a simple query that shows the database version.
 
 You need to fulfill these requirements to complete this challenge
 
