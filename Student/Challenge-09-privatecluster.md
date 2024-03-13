@@ -10,7 +10,23 @@ Make sure to check the optional objectives if you are up to a harder exercise.
 
 ## Description
 
-You need to fulfill these requirements to complete this challenge:
+The sample application we will use in this hack has three components, as the following picture describes: 
+
+![app architecture](./Resources/img/app_arch.png)
+
+The web & API components are documented at the links below. Use this documentation for hints on how to deploy them and how they work:
+- A [Web](./Resources/Challenge-09/web) component that offers an HTML portal that shows the information.
+- An [API](./Resources/Challenge-09/api) component that accesses a backend database.
+- A **database** which is only used to return a simple query that shows the database version.
+
+You need to fulfill these requirements to complete this challenge
+
+### (Optional) Build & Publish Containers to Azure Container Register
+
+Look in the `/api` and `/web` folders in the resources to find the source code for the sample application we will use for this hack. You will find a Dockerfile in each folder that you can use to build container images for the API and Web components.
+
+- Create an Azure Container Registry. 
+- Build the API and Web container images and store them in your new ACR.
 
 ### Deploy an AKS Cluster
 
@@ -26,7 +42,7 @@ You need to fulfill these requirements to complete this challenge:
 
 ### Deploy the sample application
 
-- Deploy an Azure SQL Database if you did not have one from the previous challenge
+- Deploy an Azure SQL Database.
 - Deploy the API and Web containers, expose them over an ingress controller (consider the Application Gateway Ingress Controller, although it is not required). 
     - Make sure the links in the section `Direct access to API` of the web page exposed by the Web container are working, as well as the links in the Web menu bar (`Info`, `HTML Healthcheck`, `PHPinfo`, etc)
 
