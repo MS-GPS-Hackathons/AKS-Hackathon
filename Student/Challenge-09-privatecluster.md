@@ -32,7 +32,7 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 
 - Deploy an AKS cluster integrated in an existing VNet (you need to create the VNet in advance)
 - Deploy as few nodes as possible
-- Attach the cluster to the Azure Container Registry you created in the previous challenge.
+- If you completed the previous optional section with ACR, attach the cluster to the Azure Container Registry you created.
 
 **NOTE:** If you do not have "Owner" permissions on your Azure subscription, you will not have permission to attach your AKS cluster to your ACR.  We have staged the sample application on Docker Hub so that you can use the container images at these locations:
 - **API app:** `whatthehackmsft/api`
