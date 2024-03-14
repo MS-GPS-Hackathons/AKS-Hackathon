@@ -43,7 +43,7 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 ### Deploy the sample application
 
 - Deploy an Azure SQL Database.
-- Deploy the API and Web containers, expose them over an ingress controller (consider the Application Gateway Ingress Controller, although it is not required). 
+- Deploy the API and Web containers, expose them over an ingress controller.
 - Make sure the links in the section `Direct access to API` of the web page exposed by the Web container are working, as well as the links in the Web menu bar (`Info`, `HTML Healthcheck`, `PHPinfo`, etc)
 
 ## Success Criteria
@@ -60,11 +60,11 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 
 These docs might help you achieving these objectives:
 
+- [Build and push image to ACR from a Dockerfile with 'az acr build'](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli#build-and-push-image-from-a-dockerfile)
+- [Push image to ACR with Docker](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli?tabs=azure-cli)
 - [Create a private AKS cluster](https://learn.microsoft.com/en-us/azure/aks/private-clusters?tabs=azure-portal)
 - [Azure Private Link](https://docs.microsoft.com/azure/private-link/private-link-overview)
 - [Restrict AKS egress traffic](https://docs.microsoft.com/azure/aks/limit-egress-traffic)
 - [Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview)
-- [AKS Overview](https://docs.microsoft.com/azure/aks/)
-- [Application Gateway Ingress Controller](https://docs.microsoft.com/azure/application-gateway/ingress-controller-overview)
 - [Create an Nginx ingress controller in AKS](https://docs.microsoft.com/azure/aks/ingress-basic?tabs=azure-cli)
 - [Web Application Routing Addon](https://docs.microsoft.com/azure/aks/web-app-routing)
