@@ -18,7 +18,7 @@ You should have observed by now:
 
 The Web & API containers look for these values in environment variables by default. Alternatively, they can be configured to read these values from a mounted storage volume.
 
-- **HINT:** Refer to the [Web](./Resources/web) and [API](./Resources/api) container documentation for details.
+- **HINT:** Refer to the [Web](./Resources/Challenge-09/web) and [API](./Resources/Challenge-09/api) container documentation for details.
 
 At this point in time, you have likely set those environment variable values by "hard coding" them into your deployment YAML manifest files. It is an **ANTI-pattern** to put a secret value such as a password in plain text in a YAML manifest file! 
 
