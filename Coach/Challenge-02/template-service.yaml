@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: content-api
+  labels:
+    app: content-api
+spec:
+  type: ClusterIP
+  ports:
+  - port: 3001
+    targetPort: 3001
+    protocol: TCP
+  selector:
+    app: content-api
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: content-web
+  labels:
+    app: content-web
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 3000
+    targetPort: 3000
+    protocol: TCP
+  selector:
+    app: content-web

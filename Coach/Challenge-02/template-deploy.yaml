@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: content-api
+  labels:
+    app: content-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: content-api
+  template:
+    metadata:
+      labels:
+        app: content-api
+    spec:
+      containers:
+      - name: content-api
+        image: whatthehackmsft/content-api
+        ports:
+        - containerPort: 3001
+        resources:
+          requests:
+            cpu: 500m
+            memory: 128Mi
+          limits:
+            cpu: 500m
+            memory: 128Mi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: content-web
+  labels:
+    app: content-web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: content-web
+  template:
+    metadata:
+      labels:
+        app: content-web
+    spec:
+      containers:
+      - name: content-web
+        env:
+          - name: CONTENT_API_URL
+            value: "http://content-api:3001"
+        image: whatthehackmsft/content-web
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            cpu: 500m
+            memory: 128Mi
+          limits:
+            cpu: 500m
+            memory: 128Mi

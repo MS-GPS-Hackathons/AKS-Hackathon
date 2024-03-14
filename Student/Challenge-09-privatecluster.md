@@ -21,7 +21,7 @@ The web & API components are documented at the links below. Use this documentati
 
 You need to fulfill these requirements to complete this challenge
 
-### (Optional) Build & Publish Containers to Azure Container Register
+### Build & Publish Containers to Azure Container Register
 
 Look in the `/api` and `/web` folders in the resources to find the source code for the sample application we will use for this hack. You will find a Dockerfile in each folder that you can use to build container images for the API and Web components.
 
@@ -32,11 +32,11 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 
 - Deploy an AKS cluster integrated in an existing VNet (you need to create the VNet in advance)
 - Deploy as few nodes as possible
-- If you completed the previous optional section with ACR, attach the cluster to the Azure Container Registry you created.
+- If you completed the previous section with ACR, attach the cluster to the Azure Container Registry you created.
 
 **NOTE:** If you do not have "Owner" permissions on your Azure subscription, you will not have permission to attach your AKS cluster to your ACR.  We have staged the sample application on Docker Hub so that you can use the container images at these locations:
-- **API app:** `whatthehackmsft/api`
-- **Web app:** `whatthehackmsft/web`
+- **API app:** `whatthehackmsft/api:1.0`
+- **Web app:** `whatthehackmsft/web:1.0`
 
 **HINT:** If you decide to use your own ACR with the images for api and web, you must fully qualify the name of your ACR. An image with a non-fully qualified registry name is assumed to be in Docker Hub. 
 
@@ -44,7 +44,7 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 
 - Deploy an Azure SQL Database.
 - Deploy the API and Web containers, expose them over an ingress controller (consider the Application Gateway Ingress Controller, although it is not required). 
-    - Make sure the links in the section `Direct access to API` of the web page exposed by the Web container are working, as well as the links in the Web menu bar (`Info`, `HTML Healthcheck`, `PHPinfo`, etc)
+- Make sure the links in the section `Direct access to API` of the web page exposed by the Web container are working, as well as the links in the Web menu bar (`Info`, `HTML Healthcheck`, `PHPinfo`, etc)
 
 ## Success Criteria
 
@@ -60,6 +60,7 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 
 These docs might help you achieving these objectives:
 
+- [Create a private AKS cluster](https://learn.microsoft.com/en-us/azure/aks/private-clusters?tabs=azure-portal)
 - [Azure Private Link](https://docs.microsoft.com/azure/private-link/private-link-overview)
 - [Restrict AKS egress traffic](https://docs.microsoft.com/azure/aks/limit-egress-traffic)
 - [Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview)
