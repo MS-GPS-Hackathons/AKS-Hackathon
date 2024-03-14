@@ -42,7 +42,7 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 
 ### Deploy the sample application
 
-- Deploy an Azure SQL Database.
+- Deploy an Azure SQL Database. Configure the Azure SQL Database so that it is only reachable over a private IP address
 - Deploy the API and Web containers, expose them over an ingress controller.
 - Make sure the links in the section `Direct access to API` of the web page exposed by the Web container are working, as well as the links in the Web menu bar (`Info`, `HTML Healthcheck`, `PHPinfo`, etc)
 
@@ -54,7 +54,6 @@ Look in the `/api` and `/web` folders in the resources to find the source code f
 ## Advanced Challenges (Optional)
 
 - Make sure the AKS cluster does not have **any** public IP address
-- Configure the Azure SQL Database so that it is only reachable over a private IP address
 
 ## Learning Resources
 
