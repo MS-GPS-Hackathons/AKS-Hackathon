@@ -41,5 +41,5 @@ Once the cluster is running:
 ## Learning Resources
 
 - [Deploy an Azure Kubernetes Service (AKS) cluster using Azure portal](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
-- [https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli)
+- [Install kubectl with az CLI](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli)
 - [Azure Kubernetes Service (AKS) and availability zones](https://docs.microsoft.com/en-us/azure/aks/availability-zones)
