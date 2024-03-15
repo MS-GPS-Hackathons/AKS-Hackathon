@@ -32,6 +32,8 @@ You need to fulfill these requirements to complete this challenge:
 These docs might help you achieving these objectives:
 
 - [Policy in AKS](https://docs.microsoft.com/azure/governance/policy/concepts/policy-for-kubernetes)
-- [Open Policy Agent](https://www.openpolicyagent.org/)
+- [Assigning Pods to Nodes](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
+- [Taints and Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
 - [Kubernetes Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
-- [AKS Overview](https://docs.microsoft.com/azure/aks/)
+- [Azure AD for authentication with Kubernetes RBAC](https://learn.microsoft.com/en-us/azure/aks/azure-ad-rbac?tabs=portal)
+

@@ -25,7 +25,7 @@ You need to fulfill these requirements to complete this challenge
 
 Look in the `/api` and `/web` folders in the resources to find the source code for the sample application we will use for this hack. You will find a Dockerfile in each folder that you can use to build container images for the API and Web components.
 
-- Create an Azure Container Registry. 
+- Create an Azure Container Registry.
 - Build the API and Web container images and store them in your new ACR.
 
 ### Deploy an AKS Cluster
@@ -61,6 +61,11 @@ These docs might help you achieving these objectives:
 
 - [Build and push image to ACR from a Dockerfile with 'az acr build'](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli#build-and-push-image-from-a-dockerfile)
 - [Push image to ACR with Docker](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli?tabs=azure-cli)
+
+- [Networking concepts for applications in AKS](https://learn.microsoft.com/en-us/azure/aks/concepts-network)
+- [Configure Azure CNI networking in AKS](https://learn.microsoft.com/en-us/azure/aks/configure-azure-cni?tabs=configure-networking-portal)
+- [Configure Azure CNI Overlay networking in AKS](https://learn.microsoft.com/en-us/azure/aks/azure-cni-overlay?tabs=kubectl)
+
 - [Create a private AKS cluster](https://learn.microsoft.com/en-us/azure/aks/private-clusters?tabs=azure-portal)
 - [Azure Private Link](https://docs.microsoft.com/azure/private-link/private-link-overview)
 - [Restrict AKS egress traffic](https://docs.microsoft.com/azure/aks/limit-egress-traffic)
