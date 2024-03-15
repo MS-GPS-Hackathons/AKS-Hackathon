@@ -45,7 +45,6 @@ Just like in part 1, you will now add a metadata annotation to the ingress contr
 
 ## Learning Resources
 
-_Make sure you review these! (Hint Hint)_
 * [Install Helm](https://helm.sh/docs/intro/install/)
 * [What is Helm?](https://helm.sh/)
 * [Apply a DNS label to a service](https://docs.microsoft.com/en-us/azure/aks/static-ip#apply-a-dns-label-to-the-service)

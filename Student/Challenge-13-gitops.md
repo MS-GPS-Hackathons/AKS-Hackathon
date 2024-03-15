@@ -51,3 +51,8 @@ spec:
 - Add a helm chart to your repo
 - Verify that the Helm chart was deployed to the cluster
 - Make a change to the Helm chart and verify the change in the cluster
+
+## Learning Resources
+
+1. [Application deployments with GitOps (Flux v2) for AKS](https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2)
+1. [GitOps for Azure Kubernetes Service](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks)

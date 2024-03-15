@@ -56,6 +56,7 @@ In this challenge we need to get our application up and running in Kubernetes. W
 
 ## Learning Resources
 
+* [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 * [Kubernetes Resource requests](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits)
 * [Kubernetes Service Types](https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types)
 * [kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)

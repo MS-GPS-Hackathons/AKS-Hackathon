@@ -32,3 +32,9 @@ When scaling in Kubernetes, there are some considerations:
 - After starting the load test, you see the number of nodes increase
 - After stopping the load test, you see the number of pods decrease
 - After stopping the load test, you see the number of nodes decrease
+
+## Learning Resources
+
+* [Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
+* [Cluster Scaling](https://docs.microsoft.com/en-us/azure/aks/cluster-autoscaler)
+* [Requests and Limits](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)

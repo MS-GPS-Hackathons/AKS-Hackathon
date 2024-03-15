@@ -44,8 +44,11 @@ Each of the Service Meshes have their own set of documentation for how to implem
 - Verify that you can only access pod to pod traffic via HTTPS
 - You can view the high-level metrics in Grafana
 
-## Hints
+## Learning Resources
 
-- If using Cloud Shell:
-    - It may use an older version of `istioctl`.  Instead of `istioctl install`, use `istioctl manifest apply`
-    - None of the dashboards/port-forwarding will work because the ports are opened on the Cloud Shell, NOT on your local host.
+
+* [About service meshes](https://learn.microsoft.com/en-us/azure/aks/servicemesh-about)
+* [Istio](https://learn.microsoft.com/en-us/azure/aks/istio-about)
+* [Linkerd](https://linkerd.io/)
+* [Consul](https://www.hashicorp.com/products/consul/)
+* [Open Service Mesh](https://learn.microsoft.com/en-us/azure/aks/open-service-mesh-about) 
