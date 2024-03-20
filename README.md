@@ -71,6 +71,7 @@ The following topics will be covered.
 
 ## Contributors
 - [Phanis Parpas](https://github.com/fparpas)
+- [Piotr Filarski](https://github.com/PiotrFilarski)
 
 ## References
 
